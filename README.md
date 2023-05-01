@@ -1,2 +1,2 @@
 # Portfolio
-A portfolio website I made using HTML, Javascript, and Bootstrap
+A portfolio website I made for class using HTML, Javascript, and Bootstrap
