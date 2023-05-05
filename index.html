@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bruce Lee's Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="wid=device-width initial-scale=1, minimum-scale=1"/>
+	<meta name="description" content="This is the portfolio page of Bruce Lee, a student at Saint Paul College.">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<img src="images/logo.PNG" alt="logo" height="130" width="258" class="img-fluid logo">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="form.html">Works</a></li>
+			<li><a href="javascript.html">Javascript</a></li>
+		</ul>
+	</nav>
+	<main class="mainpage">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6">
+					<img src="images/aboutpic.png" alt="about" height="215" width="360" class="img-fluid aboutpic">
+				</div>
+				<div class="col-sm-6">
+	 				<h2>About Bruce</h2>
+	 					<p>
+	 						Hello, my name is Bruce Lee. I am a current student at Saint Paul College and is working towards their Computer Graphics and Visualization AS Degree.I like working on the computer and want to improve my skills further to be proficient at multiple different programs and with the hope of getting a job within the field or going out to become a teacher within the field. Some courses that I have taken so far or am still currently taking at Saint Paul College are
+	 						<ul>
+	 							<li> Graphical Design 1</li>
+	 							<li> Adobe Animate 1/2</li>
+	 							<li> Web Fundamentals/HTML</li>
+	 							<li> Graphical Web Design 1</li>
+	 						</ul>
+	 							<p>Through these courses I am starting to familiarize myself with computer programs and languages such as</p>
+	 						<ul>
+	 							<li> Weebly</li>
+	 							<li> Wix</li>
+	 							<li> Html Markup</li>
+	 							<li> Adobe Premiere Pro</li>
+	 							<li> Adobe Animate</li>
+	 						</ul>
+	 					</p>
+	 			</div>
+	 		</div>
+	 	</div>
+	 	<div class="container-fluid">
+	 		<div class="row">
+	 			<div class="col-sm-12">
+				<div class="gallery">
+    				<div class="preview">
+    					<h2 class="homeimages"> A short gallery of my work done in college</h2>
+       					 <img id="preview" src="images/charcoal drawing.png" style="display:block;margin:0 auto;" alt=""  height="600" width="800"/>
+   					 </div>
+   					 <div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+       					 <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/charcoal drawing.png" alt=""  />
+        				<img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/adobegif.gif" alt="" />
+        				<img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/adobeparallax.gif" alt="" />
+        		</div>
+        	</div>
+        </div>
+        <br>
+        	<div class="container-fluid">
+        		<div class="row">
+        			<div class="col-sm-4">
+        			<i class="fa fa-book" aria-hidden="true"></i>
+        			<h2><a href="resume.html">About My Resume</a></h2>
+        			<p>If you check out this portion of my website, you can find all of my work experience and some of the computer skills that I have and am still learning</p>
+        			</div>
+        			<div class="col-sm-4">
+        			<i class="fa fa-laptop" aria-hidden="true"></i>
+        			<h2><a href="form.html">What's In Works</a></h2>
+        			<p>This portion of the website will show some work that I have done with HTML in websites, animations and other computer programs.</p>
+        			</div>
+        			<div class="col-sm-4">
+        			<i class="fa fa-gamepad" aria-hidden="true"></i>
+        			<h2><a href="javascript.html">Java Game</a></h2>
+        			<p>This last section has a short game made from Javascript language that you can try for youself</p>
+        			</div>
+        		</div>
+        	</div>
+	</main>
+	<footer>
+		<div class="container-fluid">
+			<div class="row footer1000">
+				<div class="col-sm-6">
+					<h2>Bruce Lee</h2>
+					<p class="about">Hello again, I am Bruce and thanks for visiting my portfolio website.<br>I like computers and want to try learning more about different programs and other languages as my fasincation for computers came from my hobby of playing video games.<br> Once again thank you for taking your time to look at my website</p>
+				</div>
+				<div class="col-sm-6">
+					<h2> Contact Information</h2>
+							<i class="fa fa-envelope" aria-hidden="true"></i><p class="contact"><a href="mailto:brucelee.be3@gmail.com">Email Me!</a></p><br>
+				</div>
+			</div>
+		</div>
+	<div class="bottom">
+		<small>&copy; 2023 Bruce's Website. All Rights Reserved. </small>
+	</div>
+	</footer>
+		<!--jQuery, Popper, and Bootstrap Javascript files-->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
