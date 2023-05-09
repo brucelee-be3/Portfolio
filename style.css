@@ -1,0 +1,183 @@
+header{
+	background-color: white;
+}
+h2{
+	color:blue;
+}
+h3{
+background-size: auto;
+background-color: floralwhite;
+padding: 10px;
+}
+h4{
+	text-indent: 10px;
+}
+body{
+	background-color: skyblue;
+}
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+.resume-title{
+	text-align: center;
+	background-color: none;
+	font-size: 30px;
+}
+.resume-page{
+	background-color: turquoise;
+	padding: 50px;
+	border-style: outset;
+}
+.mainpage{
+	padding: 50px;
+}
+.logo{
+	margin: 0 auto;
+	display:block;
+}
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+.fa{
+	margin-left: 20%;
+	font-size: 5em;
+}
+.fa-envelope{
+	font-size: 3em;
+	margin: 0 auto;
+}
+.homeimages{
+	margin-left: auto;
+}
+.col-sm-12{
+	background-color: turquoise;
+}
+.col-sm-4{
+	display: block;
+	background-color: turquoise;
+}
+.col-sm-6{
+	max-width: 1200px;
+	text-align: center;
+	background-color: turquoise;
+	padding: 50px;
+}
+.contact{
+	font-size: 35px;
+}
+.bottom{
+	display: block;
+	background-color: lightgray;
+	padding: 5px;
+}
+.about{
+	text-align: center;
+}
+.img-fluid-puppies{
+	border-style: solid;
+}
+.game{
+	align-content: center;
+}
+footer{
+	display: block;
+	background-color: turquoise;
+}
+p{
+	padding: 10px;
+}
+nav{
+	background-color: turquoise;
+	padding: 5px;
+	font-size: 25px;
+}
+nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+nav li{
+  display:inline;
+}
+nav a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+nav a:link{
+  color:purple;
+}
+nav a:visited{
+  color:purple;
+}
+nav a:hover{
+  color:orange;
+}
+nav a:active{
+  color:blue;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+	margin: auto;
+}
+footer{
+	text-align: center;
+	clear:both;
+	padding: 10px;
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+		text-align: center;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
